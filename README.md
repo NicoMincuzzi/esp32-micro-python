@@ -1,5 +1,6 @@
 # esp32-micro-python
 [https://learn.sparkfun.com/tutorials/how-to-load-micropython-on-a-microcontroller-board/esp32-thing]
+[https://learn.sparkfun.com/tutorials/micropython-programming-tutorial-getting-started-with-the-esp32-thing/all]
 ESP32 Thing
 The SparkFun ESP32 Thing is based around Espressif's powerful ESP32 chip. It includes onboard WiFi, making it a perfect endpoint platform for Internet of Things (IoT) products and projects.
 
