@@ -78,4 +78,13 @@ To turn off the LED, enter the following command:
 
 led.value(0)
 
-     `$  screen /dev/cu.usbserial-DN042779 115200`
+
+     
+ ```sh
+     cp temperature_sensor.py main.py
+     ampy --port /dev/cu.usbserial-DN042779 put main.py
+ ```
+ `$  screen /dev/cu.usbserial-DN042779 115200`
+     
+After screen command you need to press RST button
+     
