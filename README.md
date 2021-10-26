@@ -76,3 +76,5 @@ Turn on LED on ESP32 with MicroPython
 To turn off the LED, enter the following command:
 
 led.value(0)
+
+     `$  screen /dev/cu.usbserial-DN042779 115200`
