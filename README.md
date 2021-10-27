@@ -84,9 +84,9 @@ This should turn on the LED attached to pin 5 on the ESP32 Thing board.
 
 Turn on LED on ESP32 with MicroPython
 To turn off the LED, enter the following command:
-
+```python
 led.value(0)
-
+```
 
      
  ```sh
