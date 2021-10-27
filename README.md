@@ -54,7 +54,7 @@ Make sure your ESP32 is plugged into your computer. If you are on Windows, open 
 Before flashing the firmware to the ESP32, we'll want to erase everything in the chip's flash memory. To that, enter the following command (replace <USB-to-Serial Port> with your particular port name, such as COM7 on Windows, /dev/tty.usbserial-<letters and numbers> on macOS, or /dev/ttyUSB0 on Linux):
 
 ```sh
-esptool.py --chip esp32 -p <USB-to-Serial Port> erase_flash
+$ esptool.py --chip esp32 -p <USB-to-Serial Port> erase_flash
 ```
 You should see some output explaining that the ESP32 has been erased and reset.
 
