@@ -11,10 +11,16 @@ To communicate with the ESP32, the Thing board has an FTDI FT231x USB-to-Serial 
 To check if your driver is working, plug in your ESP32 Thing board into an available USB port (and make sure no other development boards or USB-to-Serial boards are plugged in).
 
 On macOS, enter the command:
+
+```sh
 ls -l /dev/tty.usb*
+```
 
 Or on Linux, enter the command:
+
+```sh
 ls -l /dev/ttyUSB0
+```
 
 You should see a statement showing the existence of the /dev/tty.usbserial (or /dev/ttyUSB0) file. If you see "No such file or directory," that means the driver was not installed. If you run into any issues with drivers in Linux or macOS, refer to the FTDI VCP drivers page for more information.
 
