@@ -61,9 +61,11 @@ You should see some output explaining that the ESP32 has been erased and reset.
 Erasing flash on the ESP32
 Next, flash the firmware with the following command (replace <USB-to-Serial Port> with your particular port name, and replace <path to .bin> with the location of your downloaded firmware file, such as ~/Downloads/esp32-20180822-v1.9.4-479-g828f771e3.bin):
 
+```sh
 $ esptool.py --chip esp32 -p <USB-to-Serial Port> write_flash -z 0x1000 <path to .bin>
-
-     Once the firmware has been uploaded, you should see the message: "hash of data verified."
+```
+     
+Once the firmware has been uploaded, you should see the message: "hash of data verified."
 
 Uploading MicroPython to the ESP32
 At this point, your ESP32 Thing should be running MicroPython.
