@@ -43,7 +43,6 @@ $ pip install --upgrade esptool
 The pip utility should automatically download and install esptool for you.
 
 ### Flash MicroPython
-
 Make sure your ESP32 is plugged into your computer. If you are on Windows, open the Device Manager and find out which COM port or device file your ESP32 is associated with (mine is COM7 as per the image above).
 
 Before flashing the firmware to the ESP32, we'll want to erase everything in the chip's flash memory. To that, enter the following command (replace <USB-to-Serial Port> with your particular port name, such as COM7 on Windows, /dev/tty.usbserial-<letters and numbers> on macOS, or /dev/ttyUSB0 on Linux):
