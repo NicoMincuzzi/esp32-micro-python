@@ -31,7 +31,7 @@ Update: This information appears to be outdated as the layout of the MicroPython
 
 (*As a heads up, we are not in control of the MicroPython webiste, so future changes may occur. Please, adapt as necessary for those changes.)
 
-### Install Python
+### Install Python 🐍
 
 To install MicroPython on the ESP32, we need to install full Python on our host machine. Weird, right? As it turns out, the esptool is a Python script that we'll run to upload the MicroPython interpreter to the ESP32.
 
@@ -47,7 +47,8 @@ $ pip install --upgrade esptool
 
 The pip utility should automatically download and install esptool for you.
 
-### Flash MicroPython
+### 📸 Flash MicroPython
+
 Make sure your ESP32 is plugged into your computer. If you are on Windows, open the Device Manager and find out which COM port or device file your ESP32 is associated with (mine is COM7 as per the image above).
 
 Before flashing the firmware to the ESP32, we'll want to erase everything in the chip's flash memory. To that, enter the following command (replace <USB-to-Serial Port> with your particular port name, such as COM7 on Windows, /dev/tty.usbserial-<letters and numbers> on macOS, or /dev/ttyUSB0 on Linux):
